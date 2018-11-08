@@ -1,0 +1,14 @@
+{
+  "name": "osmaniwebportal",
+  "version": "1.0.0",
+  "description": "osmani web portal",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Yasir Ali Wassan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
